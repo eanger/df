@@ -7,11 +7,10 @@ Geckos were sponsored by the generous contributions of the Bay 12 community.
 	Ghoulz - 15 minutes could save you 15% or more on carp insurance.
 
 [CREATURE:GECKO_LEOPARD]
-[ALTTILE:114]
 	[DESCRIPTION:A tiny, brightly-colored lizard with feet that can stick to branch and stone.]
 	[NAME:leopard gecko:leopard geckos:leopard gecko]
 	[CASTE_NAME:leopard gecko:leopard geckos:leopard gecko]
-	[CREATURE_TILE:113][COLOR:6:0:1]
+	[CREATURE_TILE:249][COLOR:6:0:1]
 	[PETVALUE:10]
 	[VERMIN_GROUNDER][FREQUENCY:100]
 	[SMALL_REMAINS]
@@ -103,8 +102,8 @@ Geckos were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:5]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:72]
-	
+	[CREATURE_TILE:'g']
+	[COLOR:6:0:1]
 
 [CREATURE:GIANT_LEOPARD_GECKO]
 	[COPY_TAGS_FROM:GECKO_LEOPARD]
@@ -120,8 +119,8 @@ Geckos were sponsored by the generous contributions of the Bay 12 community.
 	[DESCRIPTION:A large monster in the shape of a gecko.]
 	[POPULATION_NUMBER:10:20]
 	[CLUSTER_NUMBER:1:1]
-	[CREATURE_TILE:81]
-	
+	[CREATURE_TILE:'G']
+	[COLOR:6:0:1]
 	[PET_EXOTIC]
 	[PETVALUE:500]
 	[MOUNT_EXOTIC]
@@ -142,7 +141,7 @@ Desert tortoises were sponsored by the generous contributions of the Bay 12 comm
 	[NAME:desert tortoise:desert tortoises:desert tortoise]
 	[CASTE_NAME:desert tortoise:desert tortoises:desert tortoise]
 	[CHILD:1][GENERAL_CHILD_NAME:desert tortoise hatchling:desert tortoise hatchlings]
-	[CREATURE_TILE:83][COLOR:6:0:0]
+	[CREATURE_TILE:'t'][COLOR:6:0:0]
 	[PETVALUE:50]
 	[BENIGN][NATURAL][PET_EXOTIC]
 	[BIOME:ANY_DESERT]
@@ -245,8 +244,8 @@ Desert tortoises were sponsored by the generous contributions of the Bay 12 comm
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:5]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:71]
-	
+	[CREATURE_TILE:'t']
+	[COLOR:6:0:0]
 
 [CREATURE:GIANT_DESERT_TORTOISE]
 	[COPY_TAGS_FROM:DESERT TORTOISE]
@@ -263,8 +262,8 @@ Desert tortoises were sponsored by the generous contributions of the Bay 12 comm
 	[DESCRIPTION:A large monster in the form of a desert tortoise.]
 	[POPULATION_NUMBER:10:30]
 	[CLUSTER_NUMBER:1:1]
-	[CREATURE_TILE:83]
-	
+	[CREATURE_TILE:'T']
+	[COLOR:6:0:0]
 	[PET_EXOTIC]
 	[PETVALUE:500]
 	[MOUNT_EXOTIC]
@@ -284,7 +283,7 @@ Gila monsters were sponsored by the generous contributions of the Bay 12 communi
 	[NAME:gila monster:gila monsters:gila monster]
 	[CASTE_NAME:gila monster:gila monsters:gila monster]
 	[CHILD:1][GENERAL_CHILD_NAME:gila monster hatchling:gila monster hatchlings]
-	[CREATURE_TILE:81][COLOR:4:0:1]
+	[CREATURE_TILE:'g'][COLOR:4:0:1]
 	[AMPHIBIOUS]
 	[BIOME:ANY_DESERT]
 	[LARGE_ROAMING]
@@ -427,8 +426,8 @@ Gila monsters were sponsored by the generous contributions of the Bay 12 communi
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:72]
-	
+	[CREATURE_TILE:'g']
+	[COLOR:4:0:1]
 
 [CREATURE:GIANT_GILA_MONSTER]
 	[COPY_TAGS_FROM:GILA_MONSTER]
@@ -462,8 +461,8 @@ Gila monsters were sponsored by the generous contributions of the Bay 12 communi
 	[DESCRIPTION:A huge beast in the form of a gila monster.]
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:1]
-	[CREATURE_TILE:81]
-	
+	[CREATURE_TILE:'G']
+	[COLOR:4:0:1]
 	[PET_EXOTIC]
 	[PETVALUE:500]
 	[MOUNT_EXOTIC]

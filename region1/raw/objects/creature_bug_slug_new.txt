@@ -7,11 +7,10 @@ Damselflies were sponsored by the generous contributions of the Bay 12 community
 	C.J. Hull
 
 [CREATURE:DAMSELFLY]
-[ALTTILE:118]
 	[DESCRIPTION:A tiny, colorful, long-bodied insect.]
 	[NAME:damselfly:damselflies:damselfly]
 	[CASTE_NAME:damselfly:damselflies:damselfly]
-	[CREATURE_TILE:117][COLOR:3:0:1]
+	[CREATURE_TILE:249][COLOR:3:0:1]
 	[NATURAL]
 	[BIOME:ANY_POOL]
 	[VERMIN_GROUNDER][FREQUENCY:100]
@@ -81,8 +80,8 @@ Damselflies were sponsored by the generous contributions of the Bay 12 community
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:2:5]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:75]
-	
+	[CREATURE_TILE:'d']
+	[COLOR:3:0:1]
 
 [CREATURE:GIANT_DAMSELFLY]
 	[COPY_TAGS_FROM:DAMSELFLY]
@@ -98,8 +97,8 @@ Damselflies were sponsored by the generous contributions of the Bay 12 community
 	[DESCRIPTION:A large monster in the shape of a damselfly]
 	[POPULATION_NUMBER:10:20]
 	[CLUSTER_NUMBER:1:5]
-	[CREATURE_TILE:106]
-	
+	[CREATURE_TILE:'D']
+	[COLOR:3:0:1]
 	[PET_EXOTIC]
 	[PETVALUE:500]
 	[MOUNT_EXOTIC]
@@ -116,9 +115,8 @@ Moths were sponsored by the generous contributions of the Bay 12 community.
 	Shakkara thinks this game had a serious lack of cute moths
 
 [CREATURE:MOTH]
-[ALTTILE:118]
 	[DESCRIPTION:A tiny nocturnal insect.  It flies toward flames in the night.]
-	[CREATURE_TILE:117][COLOR:6:0:0]
+	[CREATURE_TILE:249][COLOR:6:0:0]
 	[NAME:moth:moths:moth]
 	[CASTE_NAME:moth:moths:moth]
 	[NATURAL]
@@ -190,8 +188,8 @@ Moths were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:5]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:75]
-	
+	[CREATURE_TILE:'m']
+	[COLOR:6:0:0]
 
 [CREATURE:GIANT_MOTH]
 	[COPY_TAGS_FROM:MOTH]
@@ -207,8 +205,8 @@ Moths were sponsored by the generous contributions of the Bay 12 community.
 	[DESCRIPTION:A large monster in the form of a moth.]
 	[POPULATION_NUMBER:10:20]
 	[CLUSTER_NUMBER:1:1]
-	[CREATURE_TILE:106]
-	
+	[CREATURE_TILE:'M']
+	[COLOR:6:0:0]
 	[PET_EXOTIC]
 	[PETVALUE:500]
 	[MOUNT_EXOTIC]
@@ -224,11 +222,10 @@ Grasshoppers were sponsored by the generous contributions of the Bay 12 communit
 	Bernard Suits
 
 [CREATURE:GRASSHOPPER]
-[ALTTILE:116]
 	[DESCRIPTION:A tiny insect which uses its powerful legs to leap and make noise.]
 	[NAME:grasshopper:grasshoppers:grasshopper]
 	[CASTE_NAME:grasshopper:grasshoppers:grasshopper]
-	[CREATURE_TILE:115][COLOR:2:0:1]
+	[CREATURE_TILE:250][COLOR:2:0:1]
 	[NATURAL]
 	[BIOME:NOT_FREEZING]
 	[FREQUENCY:100]
@@ -295,8 +292,8 @@ Grasshoppers were sponsored by the generous contributions of the Bay 12 communit
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:71]
-	
+	[CREATURE_TILE:'g']
+	[COLOR:2:0:1]
 
 [CREATURE:GIANT_GRASSHOPPER]
 	[COPY_TAGS_FROM:GRASSHOPPER]
@@ -312,8 +309,8 @@ Grasshoppers were sponsored by the generous contributions of the Bay 12 communit
 	[DESCRIPTION:A huge creature in the shape of a grasshopper.]
 	[POPULATION_NUMBER:10:20]
 	[CLUSTER_NUMBER:1:1]
-	[CREATURE_TILE:105]
-	
+	[CREATURE_TILE:'G']
+	[COLOR:2:0:1]
 	[PET_EXOTIC]
 	[PETVALUE:500]
 	[MOUNT_EXOTIC]
@@ -328,11 +325,10 @@ Bark scorpions were sponsored by the generous contributions of the Bay 12 commun
 	in fond memory of Ivan
 
 [CREATURE:BARK_SCORPION]
-[ALTTILE:116]
 	[DESCRIPTION:A tiny yellow bug.  It has pincers and a stinging tail which can prove fatal.]
 	[NAME:bark scorpion:bark scorpions:bark scorpion]
 	[CASTE_NAME:bark scorpion:bark scorpions:bark scorpion]
-	[CREATURE_TILE:115][COLOR:6:0:1]
+	[CREATURE_TILE:249][COLOR:6:0:1]
 	[CARNIVORE]
 	[PET_EXOTIC]
 	[PARALYZEIMMUNE]
@@ -427,8 +423,8 @@ Bark scorpions were sponsored by the generous contributions of the Bay 12 commun
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:72]
-	
+	[CREATURE_TILE:'s']
+	[COLOR:6:0:1]
 
 [CREATURE:GIANT_BARK_SCORPION]
 	[COPY_TAGS_FROM:BARK_SCORPION]
@@ -444,8 +440,8 @@ Bark scorpions were sponsored by the generous contributions of the Bay 12 commun
 	[DESCRIPTION:A huge monster in the form of a bark scorpion.]
 	[POPULATION_NUMBER:10:20]
 	[CLUSTER_NUMBER:1:1]
-	[CREATURE_TILE:103]
-	
+	[CREATURE_TILE:'S']
+	[COLOR:6:0:1]
 	[PET_EXOTIC]
 	[PETVALUE:500]
 	[MOUNT_EXOTIC]
@@ -459,11 +455,10 @@ Bark scorpions were sponsored by the generous contributions of the Bay 12 commun
 Mantises were sponsored by the generous contributions of the Bay 12 community.
 
 [CREATURE:MANTIS]
-[ALTTILE:116]
 	[DESCRIPTION:A tiny green insect.  It has long, distinctive forelimbs that it uses to catch its prey.]
 	[NAME:mantis:mantises:mantis]
 	[CASTE_NAME:mantis:mantises:mantis]
-	[CREATURE_TILE:115][COLOR:2:0:1]
+	[CREATURE_TILE:250][COLOR:2:0:1]
 	[NATURAL]
 	[BIOME:NOT_FREEZING]
 	[VERMIN_GROUNDER][FREQUENCY:100]
@@ -537,8 +532,8 @@ Mantises were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:71]
-	
+	[CREATURE_TILE:'m']
+	[COLOR:2:0:1]
 
 [CREATURE:GIANT_MANTIS]
 	[COPY_TAGS_FROM:MANTIS]
@@ -554,8 +549,8 @@ Mantises were sponsored by the generous contributions of the Bay 12 community.
 	[DESCRIPTION:A large monster in the shape of a mantis.]
 	[POPULATION_NUMBER:25:50]
 	[CLUSTER_NUMBER:1:1]
-	[CREATURE_TILE:103]
-	
+	[CREATURE_TILE:'M']
+	[COLOR:2:0:1]
 	[PET_EXOTIC]
 	[PETVALUE:500]
 	[MOUNT_EXOTIC]
@@ -572,11 +567,10 @@ Ticks were sponsored by the generous contributions of the Bay 12 community.
 	infection vector extraordinaire!
 
 [CREATURE:TICK]
-[ALTTILE:116]
 	[DESCRIPTION:A tiny, blood-sucking bug found in wooded areas.]
 	[NAME:tick:ticks:tick]
 	[CASTE_NAME:tick:ticks:tick]
-	[CREATURE_TILE:115][COLOR:0:0:1]
+	[CREATURE_TILE:250][COLOR:0:0:1]
 	[NATURAL]
 	[BIOME:NOT_FREEZING]
 	[VERMIN_SOIL][FREQUENCY:100]
@@ -647,8 +641,8 @@ Ticks were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:71]
-	
+	[CREATURE_TILE:'t']
+	[COLOR:0:0:1]
 
 [CREATURE:GIANT_TICK]
 	[COPY_TAGS_FROM:TICK]
@@ -664,8 +658,8 @@ Ticks were sponsored by the generous contributions of the Bay 12 community.
 	[DESCRIPTION:A large monster taking the shape of a tick.]
 	[POPULATION_NUMBER:10:20]
 	[CLUSTER_NUMBER:1:1]
-	[CREATURE_TILE:105]
-	
+	[CREATURE_TILE:'T']
+	[COLOR:6:0:0]
 	[PET_EXOTIC]
 	[PETVALUE:500]
 	[MOUNT_EXOTIC]
@@ -680,12 +674,11 @@ Lice were sponsored by the generous contributions of the Bay 12 community.
 	Maldoror
 
 [CREATURE:LOUSE]
-[ALTTILE:116]
 	Should not be able to survive away from host.
 	[DESCRIPTION:A tiny parasitic insect.  It feeds on skin and blood.]
 	[NAME:louse:lice:louse]
 	[CASTE_NAME:louse:lice:louse]
-	[CREATURE_TILE:115][COLOR:6:0:0]
+	[CREATURE_TILE:250][COLOR:6:0:0]
 	[NATURAL]
 	[BIOME:NOT_FREEZING]
 	[VERMIN_SOIL][FREQUENCY:100]
@@ -755,8 +748,8 @@ Lice were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:71]
-	
+	[CREATURE_TILE:'l']
+	[COLOR:6:0:0]
 
 [CREATURE:GIANT_LOUSE]
 	[COPY_TAGS_FROM:LOUSE]
@@ -772,8 +765,8 @@ Lice were sponsored by the generous contributions of the Bay 12 community.
 	[DESCRIPTION:A huge monster in the shape of a louse.]
 	[POPULATION_NUMBER:10:20]
 	[CLUSTER_NUMBER:1:1]
-	[CREATURE_TILE:105]
-	
+	[CREATURE_TILE:'L']
+	[COLOR:6:0:0]
 	[PET_EXOTIC]
 	[PETVALUE:500]
 	[MOUNT_EXOTIC]
@@ -788,11 +781,10 @@ Thrips were sponsored by the generous contributions of the Bay 12 community.
 	For Sachin Gadani
 
 [CREATURE:THRIPS]
-[ALTTILE:116]
 	[DESCRIPTION:A tiny pest insect.  It feeds on both crops and other bugs.]
 	[NAME:thrips:thrips:thrips]
 	[CASTE_NAME:thrips:thrips:thrips]
-	[CREATURE_TILE:115][COLOR:6:0:0]
+	[CREATURE_TILE:250][COLOR:6:0:0]
 	[NATURAL]
 	[BIOME:NOT_FREEZING]
 	[VERMIN_SOIL][FREQUENCY:100]
@@ -864,8 +856,8 @@ Thrips were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:5:10]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:71]
-	
+	[CREATURE_TILE:'t']
+	[COLOR:6:0:0]
 
 [CREATURE:GIANT_THRIPS]
 	[COPY_TAGS_FROM:THRIPS]
@@ -881,8 +873,8 @@ Thrips were sponsored by the generous contributions of the Bay 12 community.
 	[DESCRIPTION:A huge monster in the form of a thrips.]
 	[POPULATION_NUMBER:15:30]
 	[CLUSTER_NUMBER:5:10]
-	[CREATURE_TILE:105]
-	
+	[CREATURE_TILE:'T']
+	[COLOR:6:0:0]
 	[PET_EXOTIC]
 	[PETVALUE:500]
 	[MOUNT_EXOTIC]
@@ -896,11 +888,10 @@ Thrips were sponsored by the generous contributions of the Bay 12 community.
 Slugs were sponsored by the generous contributions of the Bay 12 community.
 
 [CREATURE:SLUG]
-[ALTTILE:120]
 	[DESCRIPTION:A tiny land mollusk.  It can be found under rotten logs and in gardens.]
 	[NAME:slug:slugs:slug]
 	[CASTE_NAME:slug:slugs:slug]
-	[CREATURE_TILE:119][COLOR:6:0:0]
+	[CREATURE_TILE:'~'][COLOR:6:0:0]
 	[PETVALUE:10]
 	[VERMIN_SOIL][FREQUENCY:100][VERMIN_HATEABLE]
 	[SMALL_REMAINS][VERMIN_NOTRAP][NOBONES]
@@ -954,8 +945,8 @@ Slugs were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:74]
-	
+	[CREATURE_TILE:'s']
+	[COLOR:6:0:0]
 
 [CREATURE:GIANT_SLUG]
 	[COPY_TAGS_FROM:SLUG]
@@ -971,8 +962,8 @@ Slugs were sponsored by the generous contributions of the Bay 12 community.
 	[DESCRIPTION:A huge monster in the form of a slug.]
 	[POPULATION_NUMBER:10:20]
 	[CLUSTER_NUMBER:1:1]
-	[CREATURE_TILE:107]
-	
+	[CREATURE_TILE:'S']
+	[COLOR:6:0:0]
 	[PET_EXOTIC]
 	[PETVALUE:500]
 	[MOUNT_EXOTIC]
@@ -984,11 +975,10 @@ Slugs were sponsored by the generous contributions of the Bay 12 community.
 Mosquitos were sponsored by the generous contributions of the Bay 12 community.
 
 [CREATURE:MOSQUITO]
-[ALTTILE:118]
 	[DESCRIPTION:A tiny pest insect.  It uses its long nose to suck blood from its host.]
 	[NAME:mosquito:mosquitos:mosquito]
 	[CASTE_NAME:mosquito:mosquitos:mosquito]
-	[CREATURE_TILE:117][COLOR:0:0:1]
+	[CREATURE_TILE:250][COLOR:0:0:1]
 	[NATURAL]
 	[BIOME:NOT_FREEZING]
 	[BIOME:ANY_POOL]
@@ -1064,8 +1054,8 @@ Mosquitos were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:75]
-	
+	[CREATURE_TILE:'m']
+	[COLOR:0:0:1]
 
 [CREATURE:GIANT_MOSQUITO]
 	[COPY_TAGS_FROM:MOSQUITO]
@@ -1081,8 +1071,8 @@ Mosquitos were sponsored by the generous contributions of the Bay 12 community.
 	[DESCRIPTION:A huge monster in the shape of a mosquito.]
 	[POPULATION_NUMBER:15:30]
 	[CLUSTER_NUMBER:1:1]
-	[CREATURE_TILE:106]
-	
+	[CREATURE_TILE:'M']
+	[COLOR:0:0:1]
 	[PET_EXOTIC]
 	[PETVALUE:500]
 	[MOUNT_EXOTIC]
@@ -1099,11 +1089,10 @@ Jumping spiders were sponsored by the generous contributions of the Bay 12 commu
 	John 'Chaoseed' Evans
 
 [CREATURE:SPIDER_JUMPING]
-[ALTTILE:116]
 	[DESCRIPTION:A tiny black bug that lacks a web but can leap short distances.]
 	[NAME:jumping spider:jumping spiders:jumping spider]
 	[CASTE_NAME:jumping spider:jumping spiders:jumping spider]
-	[CREATURE_TILE:115][COLOR:0:0:1]
+	[CREATURE_TILE:250][COLOR:0:0:1]
 	[CARNIVORE]
 	[PET_EXOTIC]
 	[NATURAL]
@@ -1172,8 +1161,8 @@ Jumping spiders were sponsored by the generous contributions of the Bay 12 commu
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:71]
-	
+	[CREATURE_TILE:'j']
+	[COLOR:0:0:1]
 
 [CREATURE:GIANT_JUMPING_SPIDER]
 	[COPY_TAGS_FROM:SPIDER_JUMPING]
@@ -1190,8 +1179,8 @@ Jumping spiders were sponsored by the generous contributions of the Bay 12 commu
 	[DESCRIPTION:A huge monster in the form of a jumping spider.]
 	[POPULATION_NUMBER:10:20]
 	[CLUSTER_NUMBER:1:1]
-	[CREATURE_TILE:105]
-	
+	[CREATURE_TILE:'J']
+	[COLOR:0:0:1]
 	[PET_EXOTIC]
 	[PETVALUE:500]
 	[MOUNT_EXOTIC]
@@ -1206,10 +1195,9 @@ Termites were sponsored by the generous contributions of the Bay 12 community.
 	RiceMunk
 
 [CREATURE:TERMITE]
-[ALTTILE:116]
 	[DESCRIPTION:A tiny insect capable of destroying large wooden structures when in large numbers.]
 	[NAME:termite:termites:termite]
-	[CREATURE_TILE:115][COLOR:7:0:1]
+	[CREATURE_TILE:250][COLOR:7:0:1]
 	[NATURAL]
 	[BIOME:NOT_FREEZING]
 	[VERMIN_SOIL_COLONY][FREQUENCY:100]
@@ -1274,11 +1262,10 @@ Moon snails were sponsored by the generous contributions of the Bay 12 community
 	"In soviet russia, snail eats YOU with tiny fork!"
 
 [CREATURE:MOON_SNAIL]
-[ALTTILE:120]
 	[DESCRIPTION:A tiny predatory mollusk.  It is brightly colored.]
 	[NAME:moon snail:moon snails:moon snail]
 	[CASTE_NAME:moon snail:moon snails:moon snail]
-	[CREATURE_TILE:119][COLOR:4:0:1]
+	[CREATURE_TILE:249][COLOR:4:0:1]
 	[PETVALUE:10]
 	[VERMIN_SOIL][FREQUENCY:100][VERMIN_HATEABLE]
 	[AQUATIC][SMALL_REMAINS][VERMIN_NOTRAP][NOBONES]
@@ -1349,8 +1336,8 @@ Moon snails were sponsored by the generous contributions of the Bay 12 community
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:74]
-	
+	[CREATURE_TILE:'s']
+	[COLOR:4:0:1]
 
 [CREATURE:GIANT_MOON_SNAIL]
 	[COPY_TAGS_FROM:MOON_SNAIL]
@@ -1366,8 +1353,8 @@ Moon snails were sponsored by the generous contributions of the Bay 12 community
 	[DESCRIPTION:A huge monster in the shape of a moon snail.]
 	[POPULATION_NUMBER:10:20]
 	[CLUSTER_NUMBER:1:1]
-	[CREATURE_TILE:107]
-	
+	[CREATURE_TILE:'S']
+	[COLOR:4:0:1]
 	[PET_EXOTIC]
 	[PETVALUE:500]
 	[MOUNT_EXOTIC]
@@ -1382,11 +1369,10 @@ Brown recluse spiders were sponsored by the generous contributions of the Bay 12
 	Arthemax
 
 [CREATURE:SPIDER_BROWN_RECLUSE]
-[ALTTILE:116]
 	[DESCRIPTION:A tiny brown bug known for its powerful poison.]
 	[NAME:brown recluse spider:brown recluse spiders:brown recluse spider]
 	[CASTE_NAME:brown recluse spider:brown recluse spiders:brown recluse spider]
-	[CREATURE_TILE:115][COLOR:6:0:0]
+	[CREATURE_TILE:249][COLOR:6:0:0]
 	[CARNIVORE]
 	[PET_EXOTIC]
 	[WEBIMMUNE]
@@ -1494,8 +1480,8 @@ Brown recluse spiders were sponsored by the generous contributions of the Bay 12
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:71]
-	
+	[CREATURE_TILE:'s']
+	[COLOR:6:0:0]
 
 [CREATURE:GIANT_BROWN_RECLUSE_SPIDER]
 	[COPY_TAGS_FROM:SPIDER_BROWN_RECLUSE]
@@ -1529,8 +1515,8 @@ Brown recluse spiders were sponsored by the generous contributions of the Bay 12
 	[DESCRIPTION:A huge monster in the shape of a brown recluse spider.]
 	[POPULATION_NUMBER:10:20]
 	[CLUSTER_NUMBER:1:1]
-	[CREATURE_TILE:105]
-	
+	[CREATURE_TILE:'S']
+	[COLOR:6:0:0]
 	[PET_EXOTIC]
 	[PETVALUE:500]
 	[MOUNT_EXOTIC]
@@ -1544,11 +1530,10 @@ Snails were sponsored by the generous contributions of the Bay 12 community.
 	Liegrean
 
 [CREATURE:SNAIL]
-[ALTTILE:120]
 	[DESCRIPTION:A tiny land mollusk with a large shell.]
 	[NAME:snail:snails:snail]
 	[CASTE_NAME:snail:snails:snail]
-	[CREATURE_TILE:119][COLOR:7:0:0]
+	[CREATURE_TILE:249][COLOR:7:0:0]
 	[PETVALUE:10]
 	[VERMIN_SOIL][FREQUENCY:100][VERMIN_HATEABLE]
 	[SMALL_REMAINS][VERMIN_NOTRAP][NOBONES]
@@ -1609,8 +1594,8 @@ Snails were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:74]
-	
+	[CREATURE_TILE:'s']
+	[COLOR:7:0:0]
 
 [CREATURE:GIANT_SNAIL]
 	[COPY_TAGS_FROM:SNAIL]
@@ -1626,8 +1611,8 @@ Snails were sponsored by the generous contributions of the Bay 12 community.
 	[DESCRIPTION:A huge monster in the form of a snail.]
 	[POPULATION_NUMBER:10:20]
 	[CLUSTER_NUMBER:1:1]
-	[CREATURE_TILE:107]
-	
+	[CREATURE_TILE:'S']
+	[COLOR:7:0:0]
 	[PET_EXOTIC]
 	[PETVALUE:500]
 	[MOUNT_EXOTIC]

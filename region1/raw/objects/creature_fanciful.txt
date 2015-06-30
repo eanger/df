@@ -4,7 +4,7 @@ creature_fanciful
 
 [CREATURE:CHIMERA]
 	[NAME:chimera:chimeras:chimeric]
-	[CREATURE_TILE:109][COLOR:2:0:1]
+	[CREATURE_TILE:'C'][COLOR:2:0:1]
 	[FANCIFUL]
 	[DOES_NOT_EXIST]
 	[PREFSTRING:terrifying features]
@@ -12,7 +12,7 @@ creature_fanciful
 
 [CREATURE:CENTAUR]
 	[NAME:centaur:centaurs:centaur]
-	[CREATURE_TILE:80][COLOR:6:0:0]
+	[CREATURE_TILE:'C'][COLOR:6:0:0]
 	[FANCIFUL]
 	[DOES_NOT_EXIST]
 	[PREFSTRING:strength]
@@ -26,7 +26,7 @@ creature_fanciful
 
 [CREATURE:GRIFFON]
 	[NAME:griffon:griffons:griffon]
-	[CREATURE_TILE:78][COLOR:7:0:1]
+	[CREATURE_TILE:'G'][COLOR:7:0:1]
 	[FANCIFUL]
 	[DOES_NOT_EXIST]
 	[PREFSTRING:strength]
